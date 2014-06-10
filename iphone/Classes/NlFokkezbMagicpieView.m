@@ -11,24 +11,29 @@
 
  -(PieLayer*)pieLayer
  {
+    NSLog(@"BEFORE IF")
     if( pieLayer == nil )
     {
+        NSLog(@"IF!");
         NSLog(@"INITIALIZING VIEW %@",[self frame]);
         pieLayer = [[PieLayer alloc] initWithFrame:[self frame]];
+        
+        [self addSubview:pieLayer];
 
         [pieLayer addValues:@[[PieElement pieElementWithValue:5.0 color:[UIColor redColor]],
           [PieElement pieElementWithValue:4.0 color:[UIColor blueColor]],
           [PieElement pieElementWithValue:7.0 color:[UIColor greenColor]]] animated:YES];
         
-        [self addSubview:pieLayer];
         // [pieLayer addTarget:self.proxy action:@selector(valueChanged:) forControlEvents:UIControlEventValueChanged];
+    } else {
+        NSLog(@"ELSE");
     }
     return pieLayer;
 }
 
 -(void)frameSizeChanged:(CGRect)frame bounds:(CGRect)bounds
 {
-    NSLog(@"[VIEW LIFECYCLE EVENT] frameSizeChanged");
+    NSLog(@"[VIEW LIFECYCLE EVENT] frameSizeChanged!");
 
     if (pieLayer != nil) {
 

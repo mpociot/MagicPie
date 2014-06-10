@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C7BDC91E-77E3-48FF-AEAD-C6C3CC6772C7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MagicPie</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B4C37C82-4834-4166-B3B0-4DF03126D438</key>
+		<string>https://github.com/FokkeZB/MagicPie.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iphone/MagicPie.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B4C37C82-4834-4166-B3B0-4DF03126D438</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/FokkeZB/MagicPie.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B4C37C82-4834-4166-B3B0-4DF03126D438</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B4C37C82-4834-4166-B3B0-4DF03126D438</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MagicPie</string>
+		</dict>
+	</array>
+</dict>
+</plist>

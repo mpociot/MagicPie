@@ -32,6 +32,14 @@
 		DB45576D194734170067DF1E /* NlFokkezbMagicpieView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB455769194734170067DF1E /* NlFokkezbMagicpieView.m */; };
 		DB45576E194734170067DF1E /* NlFokkezbMagicpieViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DB45576A194734170067DF1E /* NlFokkezbMagicpieViewProxy.h */; };
 		DB45576F194734170067DF1E /* NlFokkezbMagicpieViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45576B194734170067DF1E /* NlFokkezbMagicpieViewProxy.m */; };
+		DB5DFE7F19473DB000B4B717 /* NSMutableArray+pieEx.m in Sources */ = {isa = PBXBuildFile; fileRef = DB455789194737750067DF1E /* NSMutableArray+pieEx.m */; };
+		DB5DFE8119473DB000B4B717 /* PieElement.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45578B194737750067DF1E /* PieElement.m */; };
+		DB5DFE8319473DB000B4B717 /* PieLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45578D194737750067DF1E /* PieLayer.m */; };
+		DB5DFE8419473DC800B4B717 /* MagicPieLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB455787194737750067DF1E /* MagicPieLayer.h */; };
+		DB5DFE8519473DC800B4B717 /* NSMutableArray+pieEx.h in Headers */ = {isa = PBXBuildFile; fileRef = DB455788194737750067DF1E /* NSMutableArray+pieEx.h */; };
+		DB5DFE8619473DC800B4B717 /* PieElement.h in Headers */ = {isa = PBXBuildFile; fileRef = DB45578A194737750067DF1E /* PieElement.h */; };
+		DB5DFE8719473DC800B4B717 /* PieLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB45578C194737750067DF1E /* PieLayer.h */; };
+		DB5DFE8919473E9300B4B717 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5DFE8819473E9300B4B717 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +72,7 @@
 		DB45578B194737750067DF1E /* PieElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieElement.m; sourceTree = "<group>"; };
 		DB45578C194737750067DF1E /* PieLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieLayer.h; sourceTree = "<group>"; };
 		DB45578D194737750067DF1E /* PieLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieLayer.m; sourceTree = "<group>"; };
+		DB5DFE8819473E9300B4B717 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				DB5DFE8919473E9300B4B717 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				DB5DFE8819473E9300B4B717 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,6 +162,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5DFE8419473DC800B4B717 /* MagicPieLayer.h in Headers */,
+				DB5DFE8519473DC800B4B717 /* NSMutableArray+pieEx.h in Headers */,
+				DB5DFE8619473DC800B4B717 /* PieElement.h in Headers */,
+				DB5DFE8719473DC800B4B717 /* PieLayer.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* NlFokkezbMagicpie_Prefix.pch in Headers */,
 				DB45576E194734170067DF1E /* NlFokkezbMagicpieViewProxy.h in Headers */,
 				DB45576C194734170067DF1E /* NlFokkezbMagicpieView.h in Headers */,
@@ -228,6 +243,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5DFE7F19473DB000B4B717 /* NSMutableArray+pieEx.m in Sources */,
+				DB5DFE8119473DB000B4B717 /* PieElement.m in Sources */,
+				DB5DFE8319473DB000B4B717 /* PieLayer.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* NlFokkezbMagicpieModule.m in Sources */,
 				DB45576F194734170067DF1E /* NlFokkezbMagicpieViewProxy.m in Sources */,
 				DB45576D194734170067DF1E /* NlFokkezbMagicpieView.m in Sources */,
