@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+description: MagicPie
+author: Fokke Zandbergen
+license: Specify your license
+copyright: Copyright (c) 2014 by Fokke Zandbergen
+
+# these should not be edited
+name: MagicPie
+moduleid: nl.fokkezb.magicpie
+guid: 339d2e76-04ad-44a7-8a0c-e06de9d5ddae
+platform: iphone
+minsdk: 3.3.0.Beta
