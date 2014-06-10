@@ -28,6 +28,11 @@
 		24DE9E1211C5FE74003F90F6 /* NlFokkezbMagicpieModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* NlFokkezbMagicpieModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* NlFokkezbMagicpie_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* NlFokkezbMagicpie_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		DB45576C194734170067DF1E /* NlFokkezbMagicpieView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB455768194734170067DF1E /* NlFokkezbMagicpieView.h */; };
+		DB45576D194734170067DF1E /* NlFokkezbMagicpieView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB455769194734170067DF1E /* NlFokkezbMagicpieView.m */; };
+		DB45576E194734170067DF1E /* NlFokkezbMagicpieViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DB45576A194734170067DF1E /* NlFokkezbMagicpieViewProxy.h */; };
+		DB45576F194734170067DF1E /* NlFokkezbMagicpieViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45576B194734170067DF1E /* NlFokkezbMagicpieViewProxy.m */; };
+		DB455776194735100067DF1E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DB455775194735100067DF1E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +41,27 @@
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = "MagicPie";
+			remoteInfo = MagicPie;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* NlFokkezbMagicpieModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NlFokkezbMagicpieModule.h"; path = "Classes/NlFokkezbMagicpieModule.h"; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* NlFokkezbMagicpieModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NlFokkezbMagicpieModule.m"; path = "Classes/NlFokkezbMagicpieModule.m"; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* NlFokkezbMagicpieModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NlFokkezbMagicpieModule.h; path = Classes/NlFokkezbMagicpieModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* NlFokkezbMagicpieModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlFokkezbMagicpieModule.m; path = Classes/NlFokkezbMagicpieModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* NlFokkezbMagicpieModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NlFokkezbMagicpieModuleAssets.h"; path = "Classes/NlFokkezbMagicpieModuleAssets.h"; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* NlFokkezbMagicpieModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NlFokkezbMagicpieModuleAssets.m"; path = "Classes/NlFokkezbMagicpieModuleAssets.m"; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* NlFokkezbMagicpie_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NlFokkezbMagicpie_Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		24DE9E0F11C5FE74003F90F6 /* NlFokkezbMagicpieModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NlFokkezbMagicpieModuleAssets.h; path = Classes/NlFokkezbMagicpieModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* NlFokkezbMagicpieModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlFokkezbMagicpieModuleAssets.m; path = Classes/NlFokkezbMagicpieModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* NlFokkezbMagicpie_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlFokkezbMagicpie_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libNlFokkezbMagicpie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libNlFokkezbMagicpie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libNlFokkezbMagicpie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNlFokkezbMagicpie.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB455768194734170067DF1E /* NlFokkezbMagicpieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NlFokkezbMagicpieView.h; path = Classes/NlFokkezbMagicpieView.h; sourceTree = "<group>"; };
+		DB455769194734170067DF1E /* NlFokkezbMagicpieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlFokkezbMagicpieView.m; path = Classes/NlFokkezbMagicpieView.m; sourceTree = "<group>"; };
+		DB45576A194734170067DF1E /* NlFokkezbMagicpieViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NlFokkezbMagicpieViewProxy.h; path = Classes/NlFokkezbMagicpieViewProxy.h; sourceTree = "<group>"; };
+		DB45576B194734170067DF1E /* NlFokkezbMagicpieViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlFokkezbMagicpieViewProxy.m; path = Classes/NlFokkezbMagicpieViewProxy.m; sourceTree = "<group>"; };
+		DB455772194735100067DF1E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = MagicPie/LICENSE; sourceTree = "<group>"; };
+		DB455773194735100067DF1E /* MagicPie */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MagicPie; path = MagicPie/MagicPie; sourceTree = "<group>"; };
+		DB455774194735100067DF1E /* MagicPieLayer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MagicPieLayer; path = MagicPie/MagicPieLayer; sourceTree = "<group>"; };
+		DB455775194735100067DF1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = MagicPie/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +92,7 @@
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
-			name = "MagicPie";
+			name = MagicPie;
 			sourceTree = "<group>";
 		};
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
@@ -93,6 +106,11 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DB455771194734E20067DF1E /* MagicPie */,
+				DB455768194734170067DF1E /* NlFokkezbMagicpieView.h */,
+				DB455769194734170067DF1E /* NlFokkezbMagicpieView.m */,
+				DB45576A194734170067DF1E /* NlFokkezbMagicpieViewProxy.h */,
+				DB45576B194734170067DF1E /* NlFokkezbMagicpieViewProxy.m */,
 				24DE9E0F11C5FE74003F90F6 /* NlFokkezbMagicpieModuleAssets.h */,
 				24DE9E1011C5FE74003F90F6 /* NlFokkezbMagicpieModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* NlFokkezbMagicpieModule.h */,
@@ -110,6 +128,17 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		DB455771194734E20067DF1E /* MagicPie */ = {
+			isa = PBXGroup;
+			children = (
+				DB455772194735100067DF1E /* LICENSE */,
+				DB455773194735100067DF1E /* MagicPie */,
+				DB455774194735100067DF1E /* MagicPieLayer */,
+				DB455775194735100067DF1E /* README.md */,
+			);
+			name = MagicPie;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -118,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA747D9F0F9514B9006C5449 /* NlFokkezbMagicpie_Prefix.pch in Headers */,
+				DB45576E194734170067DF1E /* NlFokkezbMagicpieViewProxy.h in Headers */,
+				DB45576C194734170067DF1E /* NlFokkezbMagicpieView.h in Headers */,
 				24DD6CF91134B3F500162E58 /* NlFokkezbMagicpieModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* NlFokkezbMagicpieModuleAssets.h in Headers */,
 			);
@@ -138,8 +169,8 @@
 			);
 			dependencies = (
 			);
-			name = "MagicPie";
-			productName = "MagicPie";
+			name = MagicPie;
+			productName = MagicPie;
 			productReference = D2AAC07E0554694100DB518D /* libNlFokkezbMagicpie.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -193,6 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				24DD6CFA1134B3F500162E58 /* NlFokkezbMagicpieModule.m in Sources */,
+				DB45576F194734170067DF1E /* NlFokkezbMagicpieViewProxy.m in Sources */,
+				DB455776194735100067DF1E /* README.md in Sources */,
+				DB45576D194734170067DF1E /* NlFokkezbMagicpieView.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* NlFokkezbMagicpieModuleAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,11 +248,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/NlFokkezbMagicpie.dst";
+				DSTROOT = /tmp/NlFokkezbMagicpie.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NlFokkezbMagicpie_Prefix.pch";
+				GCC_PREFIX_HEADER = NlFokkezbMagicpie_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -237,7 +271,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "NlFokkezbMagicpie";
+				PRODUCT_NAME = NlFokkezbMagicpie;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -251,11 +285,11 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = "/tmp/NlFokkezbMagicpie.dst";
+				DSTROOT = /tmp/NlFokkezbMagicpie.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NlFokkezbMagicpie_Prefix.pch";
+				GCC_PREFIX_HEADER = NlFokkezbMagicpie_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -272,7 +306,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "NlFokkezbMagicpie";
+				PRODUCT_NAME = NlFokkezbMagicpie;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -286,11 +320,11 @@
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/NlFokkezbMagicpie.dst";
+				DSTROOT = /tmp/NlFokkezbMagicpie.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NlFokkezbMagicpie_Prefix.pch";
+				GCC_PREFIX_HEADER = NlFokkezbMagicpie_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -308,7 +342,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "NlFokkezbMagicpie";
+				PRODUCT_NAME = NlFokkezbMagicpie;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -323,11 +357,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LIBRARY = "libstdc++";
-				DSTROOT = "/tmp/NlFokkezbMagicpie.dst";
+				DSTROOT = /tmp/NlFokkezbMagicpie.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NlFokkezbMagicpie_Prefix.pch";
+				GCC_PREFIX_HEADER = NlFokkezbMagicpie_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -343,7 +377,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "NlFokkezbMagicpie";
+				PRODUCT_NAME = NlFokkezbMagicpie;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";

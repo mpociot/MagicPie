@@ -6,7 +6,7 @@ version: 1.0.0
 apiversion: 2
 description: MagicPie
 author: Fokke Zandbergen
-license: Specify your license
+license: MIT
 copyright: Copyright (c) 2014 by Fokke Zandbergen
 
 # these should not be edited
