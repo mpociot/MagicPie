@@ -32,7 +32,6 @@
 		DB45576D194734170067DF1E /* NlFokkezbMagicpieView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB455769194734170067DF1E /* NlFokkezbMagicpieView.m */; };
 		DB45576E194734170067DF1E /* NlFokkezbMagicpieViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DB45576A194734170067DF1E /* NlFokkezbMagicpieViewProxy.h */; };
 		DB45576F194734170067DF1E /* NlFokkezbMagicpieViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45576B194734170067DF1E /* NlFokkezbMagicpieViewProxy.m */; };
-		DB455776194735100067DF1E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DB455775194735100067DF1E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,10 +57,13 @@
 		DB455769194734170067DF1E /* NlFokkezbMagicpieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlFokkezbMagicpieView.m; path = Classes/NlFokkezbMagicpieView.m; sourceTree = "<group>"; };
 		DB45576A194734170067DF1E /* NlFokkezbMagicpieViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NlFokkezbMagicpieViewProxy.h; path = Classes/NlFokkezbMagicpieViewProxy.h; sourceTree = "<group>"; };
 		DB45576B194734170067DF1E /* NlFokkezbMagicpieViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlFokkezbMagicpieViewProxy.m; path = Classes/NlFokkezbMagicpieViewProxy.m; sourceTree = "<group>"; };
-		DB455772194735100067DF1E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = MagicPie/LICENSE; sourceTree = "<group>"; };
-		DB455773194735100067DF1E /* MagicPie */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MagicPie; path = MagicPie/MagicPie; sourceTree = "<group>"; };
-		DB455774194735100067DF1E /* MagicPieLayer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MagicPieLayer; path = MagicPie/MagicPieLayer; sourceTree = "<group>"; };
-		DB455775194735100067DF1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = MagicPie/README.md; sourceTree = "<group>"; };
+		DB455787194737750067DF1E /* MagicPieLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicPieLayer.h; sourceTree = "<group>"; };
+		DB455788194737750067DF1E /* NSMutableArray+pieEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+pieEx.h"; sourceTree = "<group>"; };
+		DB455789194737750067DF1E /* NSMutableArray+pieEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+pieEx.m"; sourceTree = "<group>"; };
+		DB45578A194737750067DF1E /* PieElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieElement.h; sourceTree = "<group>"; };
+		DB45578B194737750067DF1E /* PieElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieElement.m; sourceTree = "<group>"; };
+		DB45578C194737750067DF1E /* PieLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieLayer.h; sourceTree = "<group>"; };
+		DB45578D194737750067DF1E /* PieLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +108,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DB455771194734E20067DF1E /* MagicPie */,
+				DB455786194737750067DF1E /* MagicPieLayer */,
 				DB455768194734170067DF1E /* NlFokkezbMagicpieView.h */,
 				DB455769194734170067DF1E /* NlFokkezbMagicpieView.m */,
 				DB45576A194734170067DF1E /* NlFokkezbMagicpieViewProxy.h */,
@@ -128,15 +130,18 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		DB455771194734E20067DF1E /* MagicPie */ = {
+		DB455786194737750067DF1E /* MagicPieLayer */ = {
 			isa = PBXGroup;
 			children = (
-				DB455772194735100067DF1E /* LICENSE */,
-				DB455773194735100067DF1E /* MagicPie */,
-				DB455774194735100067DF1E /* MagicPieLayer */,
-				DB455775194735100067DF1E /* README.md */,
+				DB455787194737750067DF1E /* MagicPieLayer.h */,
+				DB455788194737750067DF1E /* NSMutableArray+pieEx.h */,
+				DB455789194737750067DF1E /* NSMutableArray+pieEx.m */,
+				DB45578A194737750067DF1E /* PieElement.h */,
+				DB45578B194737750067DF1E /* PieElement.m */,
+				DB45578C194737750067DF1E /* PieLayer.h */,
+				DB45578D194737750067DF1E /* PieLayer.m */,
 			);
-			name = MagicPie;
+			path = MagicPieLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +230,6 @@
 			files = (
 				24DD6CFA1134B3F500162E58 /* NlFokkezbMagicpieModule.m in Sources */,
 				DB45576F194734170067DF1E /* NlFokkezbMagicpieViewProxy.m in Sources */,
-				DB455776194735100067DF1E /* README.md in Sources */,
 				DB45576D194734170067DF1E /* NlFokkezbMagicpieView.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* NlFokkezbMagicpieModuleAssets.m in Sources */,
 			);
