@@ -9,43 +9,30 @@
 
 @implementation NlFokkezbMagicpieView
 
- -(PieLayer*)pieLayer
- {
-    NSLog(@"BEFORE IF")
-    if( pieLayer == nil )
-    {
-        NSLog(@"IF!");
-        NSLog(@"INITIALIZING VIEW %@",[self frame]);
-        pieLayer = [[PieLayer alloc] initWithFrame:[self frame]];
-        
-        [self addSubview:pieLayer];
-
-        [pieLayer addValues:@[[PieElement pieElementWithValue:5.0 color:[UIColor redColor]],
-          [PieElement pieElementWithValue:4.0 color:[UIColor blueColor]],
-          [PieElement pieElementWithValue:7.0 color:[UIColor greenColor]]] animated:YES];
-        
-        // [pieLayer addTarget:self.proxy action:@selector(valueChanged:) forControlEvents:UIControlEventValueChanged];
-    } else {
-        NSLog(@"ELSE");
-    }
-    return pieLayer;
+-(UIView *)pieWrapperView
+{
+    return self;
 }
 
 -(void)frameSizeChanged:(CGRect)frame bounds:(CGRect)bounds
 {
-    NSLog(@"[VIEW LIFECYCLE EVENT] frameSizeChanged!");
+    NSLog(@"[VIEW LIFECYCLE EVENT] frameSizeChanged");
 
-    if (pieLayer != nil) {
+    // if (pieLayer != nil) {
 
-        // You must call the special method 'setView:positionRect' against
-        // the TiUtils helper class. This method will correctly layout your
-        // child view within the correct layout boundaries of the new bounds
-        // of your view.
-        [TiUtils setView:pieLayer positionRect:bounds];
+        NSLog(@"in NIL test");
+
         PieLayer *oldPieLayer = pieLayer;
-        [pieLayer removeFromSuperview];
-        pieLayer = [[PieLayer alloc] initWithFrame:bounds];
-        [self addSubview:pieLayer];
+        [pieLayer removeFromSuperlayer];
+
+        pieLayer = [[PieLayer alloc] init];
+        pieLayer.frame = [self bounds];
+
+        [pieLayer addValues:@[[PieElement pieElementWithValue:5.0 color:[UIColor redColor]],
+          [PieElement pieElementWithValue:4.0 color:[UIColor blueColor]],
+          [PieElement pieElementWithValue:7.0 color:[UIColor greenColor]]] animated:NO];
+
+        [[self pieWrapperView].layer insertSublayer:pieLayer atIndex:0];
         // [pieLayer setMinimumValue:oldPieLayer.minimumValue];
         // [pieLayer setMaximumValue:oldPieLayer.maximumValue];
         // [pieLayer setLineWidth:oldPieLayer.lineWidth];
@@ -53,8 +40,10 @@
         // [pieLayer setUnfilledColor:oldPieLayer.unfilledColor];
         // [pieLayer setFilledColor:oldPieLayer.filledColor];
         // [pieLayer addTarget:self.proxy action:@selector(valueChanged:) forControlEvents:UIControlEventValueChanged];
-    }
+     // }
 }
+
+-(void)addValues
 
 
 // -(void)setMinimumValue_:(id)minimum

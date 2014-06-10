@@ -4,7 +4,11 @@ var win = Titanium.UI.createWindow({
     backgroundColor:'#fff'
 });
 
-var view = MagicPie.createView();
+var view = MagicPie.createView({
+  width: 300,
+  height: 300,
+  top: 20
+});
 
 win.add(view);
 
